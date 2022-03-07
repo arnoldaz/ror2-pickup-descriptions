@@ -36,8 +36,6 @@ def modifyFilePickupText(filePath: Path) -> None:
             else:
                 print(line, end="")
 
-
-
 def main(args: argparse.Namespace) -> None:
     installDir = Path(DEFAULT_INSTALL_DIR)
     if args.installDir is not None:
