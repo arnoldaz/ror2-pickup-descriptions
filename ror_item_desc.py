@@ -3,8 +3,8 @@ import fileinput
 import re
 from pathlib import Path
 
-PICKUP_REGEX = r"\"(.*)_PICKUP\":\s*\"(.*)\""
-DESCRIPTION_REGEX = r"\"(.*)_DESC\":\s*\"(.*)\""
+PICKUP_REGEX = r"\"(.*)_PICKUP\"\s*:\s*\"(.*)\""
+DESCRIPTION_REGEX = r"\"(.*)_DESC\"\s*:\s*\"(.*)\""
 
 DEFAULT_INSTALL_DIR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Risk of Rain 2\\"
 LANGUAGE_FOLDER = "Risk of Rain 2_Data\\StreamingAssets\\Language\\en\\"
