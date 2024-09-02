@@ -8,8 +8,8 @@ DESCRIPTION_REGEX = r"\"(.*)_DESC\"\s*:\s*\"(.*)\""
 
 DEFAULT_INSTALL_DIR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Risk of Rain 2\\"
 LANGUAGE_FOLDER = "Risk of Rain 2_Data\\StreamingAssets\\Language\\en\\"
-ITEMS_FILE = "Items.txt"
-EQUIPMENT_FILE = "Equipment.txt"
+ITEMS_FILE = "Items.json"
+EQUIPMENT_FILE = "Equipment.json"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--installDir", type=Path, help="RoR2 install directory")
